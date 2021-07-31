@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.more {display: none;}			
+		</style>		
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>AK</strong></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="intro.html">Intro</a></li>
+							<li><a href="work and education.html">Work and education</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="resources.html">Resources</a></li>
+							<li><a href="skills.html">Skills and Recognition</a></li>
+							<li><a href="design 5/index.html">Art gallery</a></li>
+						</ul>						
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/2.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Projects</h1>
+							</header>							
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+						<section id="one">
+							<div class="inner">
+								<div class="card" data-city="buda">	
+									<header class="major">
+										<h2>Energy management and monitoring equipment for smart grids using SST</h2>
+									</header>							
+									<p>
+										<span class="image left"><img src="images/pcb.jpg" alt="" /></span>
+											The major objective of this work is to develop a compact energy routing device used for residential applications. Designing and development of solid state transformer with
+											suitable topology that can integrate the interface for PV installations, battery storage and vehicle to grid system, this is done by re-purposing SST within current EV charging topology.</br>
+											The Solid State Transformer (SST) is a new concept that has been on trial in this avenue in the last decade.
+										<span class="dots">...</span>
+										<span class="more" style="display: none;"> A high frequency transformer assisted by MOSFET or IGBT based bridge circuits lie at the heart of every
+											solid state transformer. The increased frequency of operation reduces size of the transformer considerably.The power switches used in the SST offer and additional degree of control over the power flow thorough the device which can be exploited for Smart
+											grid applications. The increasing energy demand parallel by an increasing global temperature resulting from excessive green house gases, has made renewable energy the front runner in supplying our energy demand. So SST is regarded as most important technology 
+											for future smart grids, renewable energy and EV sector.</br><span class="image right"><img src="images/SST.jpg" alt="" /></span>
+											The energy management and isolation system developed in this project utilises a dual active bridge to provide a platform for control of power flow from/to a house connected to the grid remotely. The transformer is designed as a 1:1 isolation transformer for
+											protection purposes, with the MOSFET bridges creating a 50kHz square pulse AC for the transformer. The system acts like a controllable DC bus the power flow through which is controlled using single phase shift modulation method. The system is planned to act as
+											a controller for all DC power sources and storage in a household, giving the utility the opportunity to control the active and reactive power flow to and from the grid to a house. The block diagram of proposed system is given below.</br>
+											<span class="image fit" height="200"><img src="images/block.png" alt="" /></span>
+											The major specifications of system are Primary and secondary input DC voltage 400V, isolation transformer turns ratio 1:1, transformer operation frequency 50kHz, system efficency >95%, Primary/secondary side maximum current rating 12.5A, power rating 5kW. Some of the images related to the design are given below</span>
+									</p>
+									<span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+											  <div class="col-4"><span class="image fit"><img src="images/simmodel.PNG" alt="" /></span></div>
+											  <div class="col-4"><span class="image fit"><img src="images/ssta.png" alt="" /></span></div>
+											  <div class="col-4"><span class="image fit"><img src="images/pcblayout.JPG" alt="" /></span></div>
+											</div>
+										</div>
+									 </span>		
+									<button onclick="readMore('buda')" class="myBtn">Read more</button>
+								</div>
+								
+							</div>			
+						
+						</section>
+
+
+						<section id="two">
+							<div class="inner">
+								<div class="card" data-city="ros">	
+									<header class="major">
+										<h2>Control and navigation of simple robotic system</h2>
+									</header>							
+									<p>
+										<span class="image left"><img src="images/ros.jpg" alt="" /></span>
+										As an intern at UST Global pvt Ltd developed and simulated an automatic navigation and mapping system for indoor robotic navigation. The main idea of project is to find suitable path finding algorithm for the bot.
+										This is implemented in the ROS (Robotic operating system) platform in the Gazibo simulator using inbuilt turtlebot.</br>
+										<span class="dots">...</span>
+										<span class="more" style="display: none;">The first step in any navigation problem is to find the map of locality and then navigate to the destination in shortest path possible. For thi purpose we use both hardware and software
+										components. The hardware part mainly consits of a lidar scanner which will give as the data regarding direction and distance to the nearby obstacle. Based on this data a map is build and to this map a path finding algorithm is applied to find 
+									    the shortest distance to destination. There are mainly two main approach one in which lidar is initially used to create a map of locality and to this defined locality automatic navigation is carried out. Another approach in which map building and navigation is 
+									    done simultaneously, this is especially useful for unknown areas and interplanetary exploration. The second method requires regerous optimization and efficent computing to achieve satisfiable performance.</br>
+									    The major path finding algorithm that tried includes dijkstra's algorithm and A* algorithm. A* is found to provide much faster navigation. For the second method explained above we tried the multiple rapidly exploring randomized tree algorithm and found that it requires more time and 
+									    computation to arrive at result. Further we studied on the impact of dynamic obstacles on these algorithms and tried to improve its dynamic performace with the aid of computer vision. </span>										
+									</p>											
+									<button onclick="readMore('ros')" class="myBtn">Read more</button>
+								</div>
+							</div>
+						</section>
+
+
+						<section id="three">
+							<div class="inner">
+								<div class="card" data-city="barca">
+									<header class="major">
+										<h2>Simulation of intelligent traffic system for self-driving vehicles</h2>									<p></p>
+									</header>                               
+								   <p>
+									This is a study based on the simulation in SUMo (Simulation of Urban MObility), which is an open source traffic simulation package. The proposed system is suitable for semi and fully autonomous vehicles and make use of 
+									vehicle to vehicle as well as vehicle to traffic controller communications.
+									<span class="dots">...</span>
+								   <span class="more" style="display: none;"> Transportation plays a major role in shaping economic development of a region. When the number of vehicles increased there is a need of a system that effectively controls the trac. Thus came the system
+									that uses sign boards and traffic light signals to control the traffic . As the technology advances the need for more efficent system to replace the existing trac control system arises . This idea brought us to the concept
+									of wireless trac control system. There's little doubt that the mass adoption of autonomous or self-driving vehicles will change the automotive and transportation industries forever. But the road to driverless cars is not an easy
+									one and there are many engineering, legal and ethical challenges that must be overcome before we can enjoy the benefits of autonomous vehicles.</br>
+									So to replace the existing system we are suggesting a wireless controlled traffic system . The two major components of this system is a transmitting module which is placed at specific locations in the road and a reciever module which is fitted in each vehicle. Transmitting module consists of a radio frequency transmitter and a microcontroller which is programmed
+									with an algorithm that generates specific encrypted code and send it via transmitter. The code contains some binary pattern that specifies in which direction the movement is allowed at the time a vehicle is approching the intersection. Receving module is implemented in the vehicle ,it also contains a microcontroller and a receiver system. The reciever system
+									recives the signals and match it with the signal generated by the microcontroller. The vehicle also contains a gps module which will give the direction of movement of vehicle and its distance towards the transmitter. If the code matches the vehicle is allowed to approach the junction at any
+									desired speed. If the code mismatched the microcontroller generate additional signals that controls the speed of vehicle so that it approches the intersection with a delay.</br> By this system we can effectively control the traffic in intersections. This idea can be expanded to more effective traffic
+									control. For example , in a zebra crossing if a pedestrian is in , the sensors associated with it detects it and give signals to vehichles comming towards it and thus slowing down the vehicle. In another contest it is mandatory for vehicles to slow down near school regions for that sometimes humbs are provided. If we establish a wireless system there is no need for speed brakers at all
+									, thus providing a smooth driving experience .</span>
+									</p>
+									<span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/sumo1.png" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/sumo2.png" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/sumo3.png" alt="" /></span></div>
+											</div>
+										</div>
+									</span>
+									<button onclick="readMore('barca')" class="myBtn">Read more</button>
+									
+								</div>
+							</div>							
+						</section>
+						<section id="four">
+							<div class="inner">
+								<header class="major">
+									<h2>Simple greeting robotic system</h2>									
+								</header>
+								<p>This is developed as a hobby project. Using a camera feed and by the help of opencv implemented a simple gusture recognisation. A basic robotic platform with 3 degree of freedom and controlled using an arduino is developed. Some speech recognisation using AIML is also used.</p>
+							</div>
+						</section>
+						<section id="five">
+							<div class="inner">
+								<header class="major">
+									<h2>Automatic two dimensional drawing bot</h2>								
+								</header>
+								<p>This is also developed as a hobby project. This is basically a two axis plotter implemented by stepper motors. An image is converted to Gcode using a software tool and then it is then translated into coordinates and given to stepper motor through an arduino microcontroller.</p>
+							</div>
+						</section>
+					</div>
+
+				
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				function readMore(city) {
+                      let dots = document.querySelector(`.card[data-city="${city}"] .dots`);
+                      let moreText = document.querySelector(`.card[data-city="${city}"] .more`); 
+                      let btnText = document.querySelector(`.card[data-city="${city}"] .myBtn`);
+
+                     if (dots.style.display === "none") {
+                       dots.style.display = "inline";
+                       btnText.textContent = "Read more";
+                       moreText.style.display = "none";
+                       } else {
+                       dots.style.display = "none";
+                       btnText.textContent = "Read less"; 
+                       moreText.style.display = "inline";
+                       }
+                      }
+				</script>
+
+	</body>
+</html>
